@@ -2,21 +2,21 @@
 
 ![SHCD Tornado Banner](./assets/branding/tornado-banner.png)
 
-**Professional WordPress Database Management, Optimization, Cleanup &
-Secure Reindex Framework**
+**Advanced WordPress Database Integrity, Cleanup, Backup & Secure
+Reindex Framework**
 
 ![WordPress](https://img.shields.io/badge/WordPress-Plugin-21759B)
-![PHP](https://img.shields.io/badge/PHP-8%2B-777BB4)
-![Database](https://img.shields.io/badge/Database-Optimization-blue)
+![PHP](https://img.shields.io/badge/PHP-8%2B-blue)
+![Database](https://img.shields.io/badge/Database-Optimization-purple)
 ![License](https://img.shields.io/badge/License-GPL--2.0-green)
 
 ------------------------------------------------------------------------
 
 ## 🌐 Documentation
 
--   🇬🇧 English
--   🇸🇦 العربية
--   🇮🇷 فارسی
+-   🇬🇧 [English](#-english)
+-   🇸🇦 [العربية](#-العربية)
+-   🇮🇷 [فارسی](#-فارسی)
 
 ------------------------------------------------------------------------
 
@@ -24,21 +24,18 @@ Secure Reindex Framework**
 
 ## Overview
 
-SHCD Tornado is an advanced WordPress database maintenance framework
-built for developers, agencies, and professional website administrators.
+SHCD Tornado is a professional WordPress database maintenance framework
+designed for developers, agencies, and advanced website administrators.
 
-It provides a secure workflow for database inspection, optimization,
-cleanup, backup preparation, reference mapping, and controlled Post ID
-reindexing.
+It provides secure tools for database discovery, integrity analysis,
+backup workflows, cleanup operations, reference mapping, controlled Post
+ID reindexing, plugin compatibility, reporting, and developer
+integrations.
 
-Tornado is designed around safety-first principles, preventing unsafe
-transformations and protecting WordPress data integrity.
+Tornado follows a safety-first philosophy by validating operations
+before applying changes and preventing unsafe transformations.
 
-------------------------------------------------------------------------
-
-## Core Features
-
-### 🔍 Database Analysis Engine
+## 🔍 Database Analysis Engine
 
 -   Automatic WordPress table discovery
 -   Dynamic database prefix detection
@@ -47,14 +44,14 @@ transformations and protecting WordPress data integrity.
 -   Table and index analysis
 -   Operational reports
 
-### 💾 Backup & Safety Workflow
+## 💾 Backup & Safety Workflow
 
 -   Backup-first maintenance approach
 -   Pre-operation verification
 -   Safe preparation before destructive actions
 -   Validation before commit
 
-### 🧹 Database Cleanup System
+## 🧹 Database Cleanup System
 
 -   Revision cleanup
 -   Metadata cleanup
@@ -62,7 +59,7 @@ transformations and protecting WordPress data integrity.
 -   Safe cleanup operations
 -   Cleanup reports
 
-### 🔄 Gapless Post ID Reindex Engine
+## 🔄 Gapless Post ID Reindex Engine
 
 Advanced controlled reindexing system:
 
@@ -74,9 +71,7 @@ Advanced controlled reindexing system:
 -   AUTO_INCREMENT repair
 -   Rollback protection
 
-### 🔗 Reference Mapping Engine
-
-Handles internal WordPress relationships:
+## 🔗 Reference Mapping Engine
 
 -   Post references
 -   Metadata references
@@ -84,9 +79,7 @@ Handles internal WordPress relationships:
 -   Scalar value transformation
 -   Relationship validation
 
-### 🧩 Plugin Compatibility
-
-Designed for extension:
+## 🧩 Plugin Compatibility
 
 -   Plugin adapters
 -   Custom mapping providers
@@ -94,9 +87,7 @@ Designed for extension:
 -   Elementor compatibility
 -   WooCommerce compatibility
 
-### 🏗️ Developer Architecture
-
-Built with modular architecture:
+## 🏗️ Developer Architecture
 
 -   Admin interface
 -   Application services
@@ -105,9 +96,7 @@ Built with modular architecture:
 -   REST API layer
 -   WP-CLI compatibility
 
-### 🛡️ Security Model
-
-Security-focused operations:
+## 🛡️ Security Model
 
 -   Capability checks
 -   Nonce validation
@@ -117,13 +106,13 @@ Security-focused operations:
 
 ------------------------------------------------------------------------
 
-# 🆚 Free / Trial vs Pro
+# 🆚 Free / Trial vs Pro Comparison
 
   Feature               Free / Trial   Pro
   --------------------- -------------- --------------
   Database Analysis     ✅ Basic       🚀 Advanced
   Backup Workflow       ✅             🚀 Advanced
-  Cleanup Tools         Basic          Advanced
+  Cleanup System        Basic          Advanced
   Revision Management   ✅             ✅
   Reference Mapping     Limited        Full
   Post ID Reindex       Limited        Full
@@ -140,52 +129,91 @@ Security-focused operations:
 ## نظرة عامة
 
 SHCD Tornado إضافة احترافية لصيانة قواعد بيانات WordPress تم تطويرها
-للمطورين ومديري المواقع المتقدمة.
+للمطورين والشركات ومديري المواقع المتقدمة.
 
-توفر الإضافة نظاماً آمناً لتحليل قاعدة البيانات وتنظيفها وتحسينها وإعادة
-فهرسة معرفات المنشورات بطريقة محكومة.
+توفر الإضافة أدوات آمنة لتحليل قاعدة البيانات، النسخ الاحتياطي، التنظيف،
+إدارة العلاقات الداخلية، وإعادة فهرسة معرفات المنشورات بطريقة محكومة.
 
-## المميزات الرئيسية
+## 🔍 محرك تحليل قاعدة البيانات
 
-### تحليل قاعدة البيانات
-
--   اكتشاف الجداول تلقائياً
--   تحليل البنية
--   فحص سلامة البيانات
+-   اكتشاف جداول WordPress تلقائياً
+-   اكتشاف بادئة قاعدة البيانات
+-   فحص بنية البيانات
+-   التحقق من سلامة المعلومات
+-   تحليل الجداول والفهارس
 -   التقارير التشغيلية
 
-### النسخ الاحتياطي والأمان
+## 💾 النسخ الاحتياطي ونظام الأمان
 
 -   منهج النسخ الاحتياطي أولاً
--   التحقق قبل التعديل
--   حماية العمليات الحساسة
+-   التحقق قبل العمليات
+-   تجهيز آمن قبل التغييرات الحساسة
+-   التحقق قبل الحفظ النهائي
 
-### تنظيف قاعدة البيانات
+## 🧹 نظام تنظيف قاعدة البيانات
 
--   تنظيف المراجعات
--   إزالة البيانات غير المستخدمة
+-   تنظيف Revisions
+-   تنظيف Metadata
+-   اكتشاف البيانات غير المستخدمة
+-   عمليات تنظيف آمنة
 -   تقارير التنظيف
 
-### إعادة فهرسة Post ID
+## 🔄 محرك إعادة فهرسة Post ID
 
--   إنشاء خرائط معرفات آمنة
+-   خرائط المعرفات القديمة
+-   إنشاء معرفات مؤقتة
 -   منع التعارض
--   تحديث العلاقات
+-   مزامنة المراجع
 -   إصلاح AUTO_INCREMENT
+-   حماية التراجع
 
-### إدارة المراجع
+## 🔗 محرك إدارة المراجع
 
--   تحليل العلاقات الداخلية
--   تحويل البيانات المرتبطة
--   دعم الإضافات
+-   مراجع المنشورات
+-   مراجع البيانات الوصفية
+-   فحص البيانات المنظمة
+-   تحويل القيم
+-   التحقق من العلاقات
 
-### للمطورين
+## 🧩 توافق الإضافات
 
+-   Plugin Adapters
+-   Custom Mapping Providers
+-   SDK للمطورين
+-   دعم Elementor
+-   دعم WooCommerce
+
+## 🏗️ بنية المطورين
+
+-   واجهة الإدارة
+-   خدمات التطبيق
+-   منطق النظام
+-   طبقة قاعدة البيانات
 -   REST API
 -   WP-CLI
--   بنية قابلة للتوسع
--   SDK للمطورين
+
+## 🛡️ نموذج الأمان
+
+-   فحص الصلاحيات
+-   التحقق من Nonce
+-   تنفيذ Fail-Closed
+-   منع العمليات الخطرة
+-   التحقق قبل التعديل
 :::
+
+------------------------------------------------------------------------
+
+# 🆚 مقارنة Free / Trial و Pro
+
+  الميزة                 Free / Trial   Pro
+  ---------------------- -------------- -------
+  تحليل قاعدة البيانات   أساسي          متقدم
+  النسخ الاحتياطي        ✅             متقدم
+  التنظيف                أساسي          متقدم
+  Reference Mapping      محدود          كامل
+  Post ID Reindex        محدود          كامل
+  SDK للمطورين           محدود          كامل
+  التقارير               أساسي          متقدم
 
 ------------------------------------------------------------------------
 
@@ -194,104 +222,103 @@ SHCD Tornado إضافة احترافية لصيانة قواعد بيانات Wo
 ::: {dir="rtl"}
 ## معرفی
 
-SHCD Tornado یک فریم‌ورک حرفه‌ای مدیریت و نگهداری دیتابیس وردپرس است که
-برای توسعه‌دهندگان، آژانس‌ها و مدیران سایت‌های حرفه‌ای طراحی شده است.
+SHCD Tornado یک فریم‌ورک حرفه‌ای نگهداری دیتابیس وردپرس برای توسعه‌دهندگان،
+آژانس‌ها و مدیران سایت‌های حرفه‌ای است.
 
-این افزونه با تمرکز بر امنیت، عملیات تحلیل، پاکسازی، بکاپ، مدیریت
-ارتباطات و بازشماری کنترل‌شده شناسه‌ها را انجام می‌دهد.
+این افزونه با تمرکز بر امنیت، تحلیل دیتابیس، بکاپ، پاکسازی، مدیریت
+ارتباطات داخلی و بازشماری کنترل‌شده Post ID طراحی شده است.
 
-## قابلیت‌های اصلی
+## 🔍 موتور تحلیل دیتابیس
 
-### تحلیل دیتابیس
-
--   تشخیص خودکار جداول وردپرس
+-   شناسایی خودکار جداول وردپرس
 -   تشخیص Prefix دیتابیس
--   بررسی ساختار اطلاعات
--   بررسی سلامت داده‌ها
--   گزارش‌گیری
+-   بررسی ساختار دیتابیس
+-   اعتبارسنجی سلامت داده‌ها
+-   تحلیل جدول‌ها و Index ها
+-   گزارش‌های عملیاتی
 
-### سیستم بکاپ و امنیت
+## 💾 سیستم بکاپ و ایمنی عملیات
 
--   فرآیند Backup First
--   اعتبارسنجی قبل از تغییر
--   جلوگیری از عملیات خطرناک
+-   رویکرد Backup First
+-   بررسی قبل از عملیات
+-   آماده‌سازی امن تغییرات
+-   اعتبارسنجی قبل از Commit
 
-### پاکسازی دیتابیس
+## 🧹 سیستم پاکسازی دیتابیس
 
 -   پاکسازی Revision ها
--   حذف داده‌های بلااستفاده
--   بررسی Metadata
--   گزارش عملیات
+-   پاکسازی Metadata
+-   شناسایی داده‌های بلااستفاده
+-   عملیات پاکسازی امن
+-   گزارش نتیجه عملیات
 
-### موتور Reindex پیشرفته
+## 🔄 موتور Reindex بدون فاصله Post ID
 
 -   Mapping شناسه‌های قدیمی
 -   ایجاد شناسه موقت
 -   تولید شناسه جدید
 -   جلوگیری از Collision
+-   هماهنگ‌سازی Reference ها
 -   اصلاح AUTO_INCREMENT
--   امکان Rollback
+-   محافظت Rollback
 
-### مدیریت Reference
+## 🔗 موتور مدیریت Reference
 
--   شناسایی ارتباطات داخلی
--   تبدیل مقادیر مرتبط
--   پشتیبانی از ساختارهای پیچیده
+-   Reference نوشته‌ها
+-   Reference متادیتا
+-   اسکن داده‌های ساختاریافته
+-   تبدیل مقادیر Scalar
+-   اعتبارسنجی ارتباطات
 
-### معماری توسعه‌دهنده
+## 🧩 سازگاری افزونه‌ها
 
+-   Plugin Adapter
+-   Mapping Provider سفارشی
+-   SDK توسعه‌دهندگان
+-   سازگاری Elementor
+-   سازگاری WooCommerce
+
+## 🏗️ معماری توسعه‌دهنده
+
+-   رابط مدیریت
+-   Application Services
+-   Domain Logic
+-   زیرساخت دیتابیس
 -   REST API
 -   WP-CLI
--   Adapter SDK
--   ساختار ماژولار
+
+## 🛡️ مدل امنیتی
+
+-   بررسی دسترسی‌ها
+-   اعتبارسنجی Nonce
+-   اجرای Fail-Closed
+-   جلوگیری از عملیات خطرناک
+-   بررسی قبل از تغییر
 :::
+
+------------------------------------------------------------------------
+
+# 🆚 مقایسه نسخه Free / Trial و Pro
+
+  قابلیت              Free / Trial   Pro
+  ------------------- -------------- ---------
+  تحلیل دیتابیس       پایه           پیشرفته
+  سیستم بکاپ          ✅             پیشرفته
+  پاکسازی             پایه           پیشرفته
+  Reference Mapping   محدود          کامل
+  Post ID Reindex     محدود          کامل
+  Adapter SDK         محدود          کامل
+  گزارش‌ها             پایه           پیشرفته
+  Automation          ❌             ✅
 
 ------------------------------------------------------------------------
 
 # 📸 Screenshots
 
-Add screenshots here:
-
-``` text
-assets/screenshots/
-├── dashboard.png
-├── analyzer.png
-├── cleanup.png
-├── reindex.png
-└── reports.png
-```
-
-------------------------------------------------------------------------
-
-# 🚀 Installation
-
-1.  Upload plugin files.
-2.  Activate SHCD Tornado.
-3.  Create a verified backup.
-4.  Run database analysis.
-5.  Execute maintenance operations.
-
-------------------------------------------------------------------------
-
-# 📝 Changelog
-
-## Version 1.0.0
-
--   Initial release
--   Database analysis engine
--   Cleanup framework
--   Backup workflow
--   Reference mapping
--   Safe reindex engine
-
-------------------------------------------------------------------------
-
-# 📄 License
-
-GPL-2.0-or-later
+![Dashboard](./assets/screenshots/dashboard.png)
 
 ------------------------------------------------------------------------
 
 # 👨‍💻 Developer
 
-Developed by <a href="https://shabnam.dev"> SHABNAM.DEV </a>
+Developed by [SHABNAM.DEV](https://shabnam.dev/)
