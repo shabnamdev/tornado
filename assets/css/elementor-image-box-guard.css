@@ -1,0 +1,40 @@
+/**
+ * Read-only Elementor Image Box visibility compatibility guard.
+ * Applied only after the runtime script confirms that a real image is collapsed.
+ */
+.elementor-widget-image-box.shcd-tornado-dbm-image-box-reveal .elementor-image-box-img,
+.elementor-widget-image-box .elementor-image-box-img.shcd-tornado-dbm-image-box-fallback {
+	display: block !important;
+	visibility: visible !important;
+	opacity: 1 !important;
+	width: auto !important;
+	max-width: 100% !important;
+	height: auto !important;
+	min-width: 1px !important;
+	min-height: 1px !important;
+	overflow: visible !important;
+	clip: auto !important;
+	clip-path: none !important;
+}
+
+.elementor-widget-image-box.shcd-tornado-dbm-image-box-reveal .elementor-image-box-img > a,
+.elementor-widget-image-box .elementor-image-box-img.shcd-tornado-dbm-image-box-fallback > a {
+	display: inline-block !important;
+	visibility: visible !important;
+	opacity: 1 !important;
+	max-width: 100% !important;
+}
+
+.elementor-widget-image-box.shcd-tornado-dbm-image-box-reveal .elementor-image-box-img img,
+.elementor-widget-image-box .elementor-image-box-img.shcd-tornado-dbm-image-box-fallback img {
+	display: block !important;
+	visibility: visible !important;
+	opacity: 1 !important;
+	width: auto !important;
+	max-width: 100% !important;
+	height: auto !important;
+	min-width: 1px !important;
+	min-height: 1px !important;
+	clip: auto !important;
+	clip-path: none !important;
+}
